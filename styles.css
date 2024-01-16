@@ -103,8 +103,11 @@
 
 
  .search-section {
-     margin: 0 150px 85px;
+     /* width: 70%; */
+     /* margin: 0px auto; */
+     border-radius: 10px;
      display: flex;
+     justify-content: space-evenly;
      padding: 15px;
      gap: 20px;
      background: rgba(255, 255, 255, 0.30);
@@ -478,7 +481,13 @@
 
 
 
-
+@media screen and (min-width: 600px){
+    nav>ul>.fa-solid {
+         display: none;
+         
+         
+     }
+}
 
 
  @media screen and (max-width: 600px) {
@@ -505,6 +514,20 @@
 
      nav>ul>li {
          display: none;
+         
+         
+     }
+
+     /* nav>ul> {
+        width: 300px;
+        background: #000;
+         position: relative;
+     } */
+
+     nav>ul>.fa-solid {
+        
+         margin-left: 15rem;
+         
          
          
      }
