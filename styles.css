@@ -7,6 +7,7 @@
  }
 
  button {
+     color: #FFF;
      padding: 12px 28px;
      background-color: #FF5400;
      border: none;
@@ -182,12 +183,23 @@
  .view-gallery {
      padding: 30px 0 82px 0;
 
+
  }
 
  .grid-1 {
+     position: relative;
      display: flex;
      gap: 10px;
      margin-bottom: 10px;
+ }
+
+ .grid-1>h3 {
+     position: absolute;
+     top: 25%;
+     left: 20%;
+     color: #FFF;
+     font-size: 25px;
+     font-weight: 800;
  }
 
  .grid-1>img {
@@ -195,16 +207,56 @@
 
  }
 
+ .grid-1>h4 {
+     position: absolute;
+     top: 25%;
+     right: 20%;
+     color: #FFF;
+     font-size: 25px;
+     font-weight: 800;
+ }
+
+
+
 
  .grid-3 {
      display: flex;
 
  }
 
+ .grid-33 {
+     position: relative;
+ }
+
+ .grid-33>h3 {
+     position: absolute;
+     top: 30%;
+     right: 40%;
+     color: #FFF;
+     font-size: 25px;
+     font-weight: 800;
+ }
+
  .grid-33>img {
      width: 340px;
      padding-right: 10px;
 
+ }
+
+ .grid-4,
+ .grid-5,
+ .grid-66,
+ .grid-7 {
+     position: relative;
+ }
+
+ .grid-4>h3 {
+     color: #FFF;
+     font-size: 25px;
+     font-weight: 800;
+     position: absolute;
+     top: 30%;
+     left: 30%;
  }
 
  .grid-4>img {
@@ -214,7 +266,15 @@
 
  .grid-5>img {
      width: 250px;
+ }
 
+ .grid-5>h3 {
+     color: #FFF;
+     font-size: 25px;
+     font-weight: 800;
+     position: absolute;
+     top: 30%;
+     left: 30%;
  }
 
  .grid-6 {
@@ -227,8 +287,26 @@
      padding-right: 10px;
  }
 
+ .grid-66>h3 {
+     color: #FFF;
+     font-size: 25px;
+     font-weight: 800;
+     position: absolute;
+     top: 30%;
+     left: 30%;
+ }
+
  .grid-7>img {
      width: 605px;
+ }
+
+ .grid-7>h3 {
+     color: #FFF;
+     font-size: 25px;
+     font-weight: 800;
+     position: absolute;
+     top: 25%;
+     left: 40%;
  }
 
  .our-service {
@@ -344,7 +422,34 @@
      margin-left: 20px;
  }
 
+ footer {
+     background-color: rgba(19, 19, 24, 0.05);
+     height: 450px;
+     width: 100%;
 
+ }
+
+ footer>.nav-left {
+     padding: 50px 0 15px 475px;
+     margin: 0;
+
+ }
+
+ footer>p {
+     text-align: center;
+     padding: 0 210px 28px;
+
+ }
+
+ footer>.social-icon {
+     text-align: center;
+     padding-bottom: 40px;
+
+ }
+
+ footer>.finishing {
+     text-align: center;
+ }
 
 
 
@@ -373,8 +478,10 @@
          margin: 42px 0 39px 0;
      }
 
-     nav>ul {
+     nav>ul>li {
          display: none;
+         
+         
      }
 
      .nav-title {
@@ -420,6 +527,15 @@
          padding: 20px 0 50px 0;
      }
 
+     
+
+     .grid-1>h4 {
+         top: 60%;
+         right: 40%;
+     }
+
+
+
      .grid-1,
      .grid-3,
      .grid-6 {
@@ -458,6 +574,21 @@
 
      .sign-up-image>img {
          margin-left: 0;
+     }
+
+     footer {
+         height: 350px;
+     }
+
+     footer>p {
+         padding: 0 50px 20px;
+     }
+
+     footer>.nav-left {
+
+         padding: 50px 0 15px 120px;
+         margin: 0;
+
      }
 
  }
