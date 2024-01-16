@@ -371,7 +371,32 @@
      margin: 0 270px;
  }
 
+ .transport-facility{
+    display: flex;
+    padding: 10px 200px 80px;
+ }
 
+ .facilities-text>h2{
+    color: #131318;
+    font-size: 22px;
+    font-weight: 800;
+    padding-bottom: 10px;
+ }
+
+.facilities-text>p{
+    color: #5A5A5D;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+ .facilities-text{
+    width: 50%;
+ }
+ .transport-image{
+    height: 100%;
+    width: 100%;
+ }
 
  .sign-up-section {
      display: flex;
@@ -558,6 +583,18 @@
 
      .best-offer {
          margin: 0;
+     }
+
+     .transport-facility{
+        display: grid;
+        padding: 0;
+        margin: 10px 40px 50px;
+     }
+     .facilities-text{
+        width: 100%;
+     }
+     .facilities-text>h2{
+        font-size: 21px;
      }
 
      .sign-up-section {
