@@ -194,6 +194,7 @@
      display: flex;
      gap: 10px;
      margin-bottom: 10px;
+     justify-content: center;
  }
 
  .grid-1>h3 {
@@ -374,31 +375,32 @@
      margin: 0 270px;
  }
 
- .transport-facility{
-    display: flex;
-    padding: 10px 200px 80px;
+ .transport-facility {
+     display: flex;
+     padding: 10px 200px 80px;
  }
 
- .facilities-text>h2{
-    color: #131318;
-    font-size: 22px;
-    font-weight: 800;
-    padding-bottom: 10px;
+ .facilities-text>h2 {
+     color: #131318;
+     font-size: 22px;
+     font-weight: 800;
+     padding-bottom: 10px;
  }
 
-.facilities-text>p{
-    color: #5A5A5D;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 22px;
-}
-
- .facilities-text{
-    width: 50%;
+ .facilities-text>p {
+     color: #5A5A5D;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 22px;
  }
- .transport-image{
-    height: 100%;
-    width: 100%;
+
+ .facilities-text {
+     width: 50%;
+ }
+
+ .transport-image {
+     height: 100%;
+     width: 100%;
  }
 
  .sign-up-section {
@@ -443,6 +445,34 @@
      border: none;
  }
 
+ .sign-up-image {
+     position: relative;
+ }
+
+ .sign-up-image>.signup-image-text {
+     position: absolute;
+     transform: rotate(-19.628deg);
+     text-align: center;
+     background: #FF5400;
+     padding: 20px;
+     bottom: 12%;
+     right: 0;
+     border-radius: 8px;
+ }
+
+ .sign-up-image>.signup-image-text>h4 {
+     color: #FFF;
+     font-size: 18px;
+     font-weight: 400;
+
+ }
+
+ .sign-up-image>.signup-image-text>h2 {
+     color: #FFF;
+     font-size: 26px;
+     font-weight: 800;
+ }
+
 
  .sign-up-image>img {
      height: 100%;
@@ -481,13 +511,13 @@
 
 
 
-@media screen and (min-width: 600px){
-    nav>ul>.fa-solid {
+ @media screen and (min-width: 601px) {
+     nav>ul>.fa-solid {
          display: none;
-         
-         
+
+
      }
-}
+ }
 
 
  @media screen and (max-width: 600px) {
@@ -514,8 +544,8 @@
 
      nav>ul>li {
          display: none;
-         
-         
+
+
      }
 
      /* nav>ul> {
@@ -525,15 +555,15 @@
      } */
 
      nav>ul>.fa-solid {
-        
-         margin-left: 15rem;
-         
-         
-         
+
+         margin-left: 90%;
+
+
+
      }
 
      .nav-title {
-         font-size: 20px;
+         font-size: 18px;
 
      }
 
@@ -575,7 +605,10 @@
          padding: 20px 0 50px 0;
      }
 
-     
+     .grid-1>h3{
+        top: 10%;
+        left:38%;
+     }
 
      .grid-1>h4 {
          top: 60%;
@@ -608,16 +641,18 @@
          margin: 0;
      }
 
-     .transport-facility{
-        display: grid;
-        padding: 0;
-        margin: 10px 40px 50px;
+     .transport-facility {
+         display: grid;
+         padding: 0;
+         margin: 10px 40px 50px;
      }
-     .facilities-text{
-        width: 100%;
+
+     .facilities-text {
+         width: 100%;
      }
-     .facilities-text>h2{
-        font-size: 21px;
+
+     .facilities-text>h2 {
+         font-size: 21px;
      }
 
      .sign-up-section {
@@ -630,6 +665,20 @@
          padding: 0;
          margin-left: 0;
          margin-bottom: 10px;
+     }
+
+     .sign-up-image>.signup-image-text{
+        padding: 10px;
+        bottom: 10%;
+        right: 2%;
+     }
+
+     .sign-up-image>.signup-image-text>h4{
+        font-size: 15px;
+     }
+
+     .sign-up-image>.signup-image-text>h2{
+        font-size: 18px;
      }
 
      .sign-up-image>img {
@@ -665,23 +714,6 @@
          margin: 0 20px;
      }
 
-     /* .grid-1>img {
-         width: 380px;
-     }
-     .grid-33>img {
-        width: 245px;
-    }
-    .grid-4>img {
-        width: 320px;
-    }
-    .grid-5>img {
-        width: 185px;
-    }
-    .grid-66>img {
-        width: 315px;
-    }
-    .grid-7>img {
-        width: 445px;
-    }*/
+   
 
  }
